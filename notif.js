@@ -1,7 +1,1 @@
-let showingAlert = false;
-const interval = setInterval(() => {
-    document.title = showingAlert
-    ? 'Sazumi Cloud': 'Sazumi Viki';
-
-    showingAlert = !showingAlert;
-}, 1000);
+let showingAlert=!1;const interval=setInterval((()=>{document.title=showingAlert?"Sazumi Cloud":"Sazumi Viki",showingAlert=!showingAlert}),1e3);
